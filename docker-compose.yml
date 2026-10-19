@@ -1,6 +1,6 @@
 services:
   web:
-    image: ${IMAGE:-sravanthikanukuladocker/dev}:${TAG:-latest}}
+    image: ${IMAGE:-sravanthikanukuladocker/dev}:${TAG:-latest}
     container_name: react-app
     ports:
       - "80:80"
